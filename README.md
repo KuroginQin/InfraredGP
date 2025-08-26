@@ -23,6 +23,8 @@ If you have any questions regarding this repository, you can contact the author 
 - graph-tool
 
 ### Usage
+The generated large datasets can be downloaded via this [link](https://drive.google.com/file/d/1Rv6kHvpoBQwql0rdn7IBeahbVXTRwqlK/view?usp=sharing). Please unzip the file and put datasets under ./data.
+
 To run InfraredGP for static GP on dataset w/ a specific setting of N
 ```
 python infraredgp_static_GP.py --N 5000 --tau -6 --L 10 --d 64
