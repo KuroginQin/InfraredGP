@@ -1,9 +1,18 @@
 # InfraredGP: Efficient Graph Partitioning via Spectral Graph Neural Networks with Negative Corrections
 
-This is the anonymous repository of submission "InfraredGP: Efficient Graph Partitioning via Spectral Graph Neural Networks with Negative Corrections". Due to the storage limit of supplementary material, we could only provide some demo data. We will open source the full code if accepted.
+This repository provides a reference implementation of InfraredGP introduced in the paper "InfraredGP: Efficient Graph Partitioning via Spectral Graph Neural Networks with Negative Corrections", which won the Honorable Mention of [IEEE HPEC 2025 Graph Challenge](https://graphchallenge.mit.edu/champions).
 
 ### Abstract
 Graph partitioning (GP), a.k.a. community detection, is a classic problem that divides nodes of a graph into densely-connected blocks. From a perspective of graph signal processing, we find that graph Laplacian with a negative correction can derive graph frequencies beyond the conventional range [0, 2]. To explore whether the low-frequency information beyond this range can encode more informative properties about community structures, we propose InfraredGP. It (i) adopts a spectral GNN as its backbone combined with low-pass filters and a negative correction mechanism, (ii) only feed random inputs to this backbone, (iii) derives graph embeddings via one feed-forward propagation (FFP) without any training, and (iv) derive feasible GP results by feeding the derived embeddings to BIRCH. Surprisingly, our experiments demonstrate that only based on the negative correction mechanism that amplifies low-frequency information beyond [0, 2], InfraredGP can derive distinguishable embeddings for some standard clustering modules (e.g., BIRCH) and obtain high-quality results for GP without any training. Following the IEEE HPEC Graph Challenge benchmark, we evaluate InfraredGP for both static and streaming GP, where InfraredGP can achieve much better efficiency (e.g., 16x-23x faster) and competitive quality over various baselines.
+
+### Citing
+If you find this project useful for your research, please cite the following paper.
+
+```
+TBD
+```
+
+If you have any questions regarding this repository, you can contact the author via [mengqin_az@foxmail.com].
 
 ### Requirements
 - numpy
