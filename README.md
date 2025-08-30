@@ -9,7 +9,12 @@ Graph partitioning (GP), a.k.a. community detection, is a classic problem that d
 If you find this project useful for your research, please cite the following paper.
 
 ```
-TBD
+@article{qin2025infraredgp,
+  title={InfraredGP: Efficient Graph Partitioning via Spectral Graph Neural Networks with Negative Corrections},
+  author={Qin, Meng and Li, Weihua and Cui, Jinqiang and Pei, Sen},
+  journal={arXiv preprint arXiv:2508.19737},
+  year={2025}
+}
 ```
 
 If you have any questions regarding this repository, you can contact the author via [mengqin_az@foxmail.com].
